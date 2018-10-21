@@ -27,7 +27,7 @@ public class SupermarketTest {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         } catch (SQLException e) {
-            System.err.println("Verbinung zur Datenbank nicht möglich\n" + e.getMessage() + "\n");
+            System.err.println("Verbinung zur Datenbank nicht möglich!\n" + e.getMessage() + "\n");
             System.exit(1);
         }
 
